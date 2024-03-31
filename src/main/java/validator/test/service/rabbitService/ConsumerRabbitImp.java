@@ -10,7 +10,7 @@ import validator.test.service.csvInformationService.CsvInformationService;
 @Service
 public class ConsumerRabbitImp implements ConsumerRabbit {
 
-    boolean answers;
+    boolean answers ;
     private ObjectMapper objectMapper;
     private CsvInformationService csvInformationService;
     private PublisherRabbit publisherRabbit;
