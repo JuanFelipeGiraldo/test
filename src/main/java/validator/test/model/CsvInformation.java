@@ -1,7 +1,9 @@
 package validator.test.model;
 
 
-public class CsvInformation {
+import java.io.Serializable;
+
+public class CsvInformation implements Serializable {
 
     private String email;
     private String date;

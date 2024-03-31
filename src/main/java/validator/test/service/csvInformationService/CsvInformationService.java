@@ -1,4 +1,4 @@
-package validator.test.service;
+package validator.test.service.csvInformationService;
 
 import org.springframework.stereotype.Service;
 import validator.test.model.CsvInformation;
